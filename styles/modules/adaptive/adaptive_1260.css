@@ -1,0 +1,65 @@
+@media screen and (max-width: 1260px) {
+
+    :root{
+        --fs-1-lvl: 50px;
+    }
+
+    .header__navbar-list{
+        width: 60%;
+    }
+
+    .home__img-block{
+        position: relative;
+        width: 50%;
+    }
+
+    .home__img-block > img{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .books__img-block{
+        width: 50%;
+    }
+
+    .books__img-block > img{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .about-author__body{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .about-author__info-block{
+        align-items: center;
+    }
+
+    .about-author__title-block{
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-author__title {
+        margin-bottom: 50px;
+    }
+
+    .about-author__info-list{
+        margin: 20px 0;
+    }
+
+    .about-author__card{
+        width: 60%;
+        gap: 1rem;
+    }
+
+    .description__img{
+        width: 40%;
+    }
+
+    .description__img > img{
+        width: 100%;
+    }
+}

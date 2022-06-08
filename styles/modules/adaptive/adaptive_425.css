@@ -1,0 +1,94 @@
+@media screen and (max-width: 425px) {
+
+    :root{
+        --fs-1-lvl: 40px;
+    }
+
+    .books__item{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .books__desc-block{
+        width: 90%;
+        justify-content: start;
+        align-items: center;
+        height: initial;
+    }
+
+    .books__img-block{
+        width: 60%;
+    }
+
+    .books__book-title{
+        align-items: center;
+    }
+
+    .books__book-info{
+        text-align: center;
+    }
+
+    .books__book-type{
+        font-size: calc(var(--fs-2-lvl) - 3px);
+    }
+
+    .books__book-type-block{
+        margin: 15px 0;
+    }
+
+    .about-author{
+        padding: 100px 0;
+    }
+    
+    .about-author__info{
+        line-height: 24px;
+    }
+
+    .about-author__card{
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .about-author__code{
+        width: 40%;
+    }
+
+    .about-author__desc-author{
+        padding: 0;
+    }
+
+    .about-author__info-list{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 25px;
+    }
+
+    .about-author__info-item{
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: none;
+        padding: 0;
+        gap: 16px;
+    }
+
+    .about-author__info-num{
+        display: inline-block;
+    }
+
+    .trusted__item{
+        width: 90%;
+    }
+
+    .chapters__desc-list{
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .chapters__btn > button{
+        padding: 22px 70px;
+    }
+}

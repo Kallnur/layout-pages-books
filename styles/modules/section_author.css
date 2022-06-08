@@ -1,0 +1,99 @@
+.about-author{
+    padding: 180px 0 140px 0;
+    background: #F5F8FC;
+}
+
+.about-author__body{
+    display: flex;
+    gap: 150px;
+}
+
+.about-author__img-block{
+    border: 10px solid var(--active-color);
+}
+
+.about-author__img-block > img{
+    transform: translateX(-42px) translateY(-40px);
+}
+
+.about-author__info-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0 32px;
+}
+
+.about-author__info{
+    line-height: 34px;
+    color: var(--sub-text-color);
+    font-size: calc(var(--fs-3-lvl) + 2px);
+}
+
+.about-author__info-list{
+    display: flex;
+    padding: 0 10px;
+}
+
+.about-author__info-item{
+    width: 33%;
+    padding-left: 37px;
+    border-right: 1px solid var(--active-color);
+}
+
+.about-author__info-item:first-child{
+    padding: 0;
+}
+
+.about-author__info-item:last-child{
+    border-right: none;
+}
+
+.about-author__info-num{
+    display: block;
+    font-family: "Cardo";
+    font-weight: 400;
+    font-size: calc(var(--fs-1-lvl) - 10px);
+}
+
+.about-author__info-name{
+    font-size: var(--fs-3-lvl);
+    color: var(--sub-text-color);
+}
+
+.about-author__card{
+    width: 80%;
+    display: flex;
+    background: var(--main-bg-color);
+    padding: 15px 15px 16px 20px;
+}
+
+.about-author__code{
+    position: relative;
+    width: 26%;
+}
+
+.about-author__code > img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.about-author__desc-author{
+    display: flex;
+    flex-direction: column;
+    padding: 22px 0 0 38px;
+    gap: 8px;
+}
+
+.about-author__name{
+    font-size: var(--fs-2-lvl);
+    font-weight: 400;
+    color: var(--active-color);
+    font-family: "Cardo";
+    margin-bottom: 10px;
+}
+
+.about-author__email,
+.about-author__phone{
+    font-size: var(--fs-3-lvl);
+    color: var(--sec-text-color);
+}

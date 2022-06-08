@@ -1,0 +1,89 @@
+.chapters{
+    background: var(--sec-bg-color);
+    padding: 116px 0;
+}
+
+.chapters__title-block{
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.chapters__title{
+    letter-spacing: .6px;
+}
+
+.chapters__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+    margin-bottom: 64px;
+}
+
+.chapters__item{
+    width: 49%;
+    background: var(--white-color);
+    padding: 46px 40px 40px;
+}
+
+.chapters__item-title{
+    font-size: calc(var(--fs-2-lvl) + 3px);
+    display: block;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.chapters__item-info{
+    color: var(--sub-text-color);
+    line-height: 32px;
+    font-size: calc(var(--fs-3-lvl) + 2px);
+}
+
+.chapters__desc-list{
+    display: flex;
+    gap: 50px;
+    margin: 10px 0;
+}
+
+.chapters__desc-item{
+    margin-left: 26px;
+}
+
+.chapters__desc-name{
+    font-size: calc(var(--fs-2-lvl) + 1px);
+    font-family: "Cardo";
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+.chapters__desc-info{
+    color: var(--sub-text-color);
+    font-size: var(--fs-3-lvl);
+}
+
+.chapters__btn{
+    margin-bottom: 34px;
+}
+
+.chapters__btn > button{
+    background: var(--active-color);
+    padding: 22px 96px;
+    font-size: calc(var(--fs-3-lvl) + 2px);
+    letter-spacing: .6px;
+}
+
+.chapters__question-link{
+    width: 33%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.chapters__question-link span{
+    color: var(--sub-text-color);
+    font-size: calc(var(--fs-3-lvl) + 1px);
+    line-height: 28px;
+}
+
+.chapters__question-link span:first-child{
+    display: block;
+}

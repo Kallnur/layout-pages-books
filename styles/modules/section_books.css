@@ -1,0 +1,65 @@
+.books{
+    padding: 120px 0 150px;
+}
+
+.books__title-block{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.books__list{
+    display: flex;
+    gap: 2rem;
+}
+
+.books__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 48%;
+}
+
+.books__desc-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 48%;
+    height: 100%;
+    padding: 30px 0 42px 0;
+}
+
+.books__book-title{
+    display: flex;
+    flex-direction: column;
+    margin: 17px 0;
+}
+
+.books__book-name{
+    font-size: var(--fs-1_5-lvl);
+    font-weight: 400;
+    margin-bottom: 10px;
+    letter-spacing: .5px;
+}
+.books__book-price{
+    font-size: var(--fs-2-lvl);
+    color: var(--active-color);
+}
+.books__book-info{
+    font-size: calc(var(--fs-3-lvl) + 2px);
+    color: var(--sub-text-color);
+    line-height: 28px;
+    width: 90%;
+}
+.books__book-type-block{
+    padding-left: 28px;
+}
+.books__book-type{
+    font-family: "Cardo";
+    font-size: calc(var(--fs-2-lvl) + 3px);
+}
+.books__book-btn{
+    font-size: calc(var(--fs-3-lvl) + 2px);
+    padding: 18px 0 !important;
+    border-color: var(--active-color);
+    width: 206px;
+}

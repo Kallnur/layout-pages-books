@@ -1,0 +1,108 @@
+.home{
+    background: var(--main-bg-color);
+}
+
+.home * {
+    color: var(--white-color)
+}
+
+.home__body{
+    padding: 90px 10px 82px 15px;
+    justify-content: space-between;
+}
+
+.home__title-block{
+    width: 42%;
+    padding: 0 0 15px 10px;
+}
+
+.home__title-txt > span{
+    position: relative;
+    font-size: var(--fs-2-lvl);
+    padding-left: 55px;
+    letter-spacing: 1.25px;
+    font-family: "Cardo";
+}
+
+.home__title-txt > span::before{
+    position: absolute;
+    content: '';
+    width: 35px;
+    height: 2px;
+    background: var(--active-color);
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.home__title{
+    font-size: var(--fs-1-lvl);
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+
+.home__subtitle{
+    font-size: calc(var(--fs-3-lvl) + 1px);
+    color: var(--sec-text-color);
+    margin: 24px 0 42px;
+}
+
+.home__btns{
+    margin-bottom: 2rem;
+    white-space: nowrap;
+}
+
+.home__btns button{
+    position: relative;
+    font-size: calc(var(--fs-3-lvl) + 2px);
+    letter-spacing: .6px;
+    padding: 18px 52px;
+}
+
+.home__btns button:nth-child(1){
+    background: var(--active-color);
+    color: var(--main-text-color);
+}
+
+.home__btns button:nth-child(2){
+    padding: 18px 30px;
+}
+
+.home__btns button:nth-child(2) > span{
+    position: relative;
+}
+
+.home__btns button:nth-child(2) > span::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: var(--white-color);
+    bottom: -10px;
+    left: 0;
+}
+
+.home__desc-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.home__desc-item{
+    position: relative;
+    padding: 0 26px;
+    display: flex;
+    flex-direction: column;
+}
+
+.home__desc-name{
+    position: relative;
+    font-size: calc(var(--fs-2-lvl) + 3px);
+    line-height: 50px;
+    font-family: "Cardo";
+}
+
+.home__desc-info{
+    font-size: calc(var(--fs-3-lvl));
+    color: var(--sec-text-color);
+    white-space: nowrap;
+}

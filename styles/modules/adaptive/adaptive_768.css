@@ -1,0 +1,132 @@
+@media screen and (max-width: 768px) {
+
+    :root{
+        --fs-1_5-lvl: 25px;
+        --fs-2-lvl: 18px;
+        --fs-3-lvl: 14px;
+    }
+
+    .header__navbar-list,
+    .header__logo-list,
+    #open-mobile-navbar{
+        display: none;
+    }
+
+    .header__mobile-navber-list{
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: var(--white-color);
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        transition: .5s;
+        transform: translateX(110%);
+    }
+
+    .header__burger-block{
+        display: block;
+        z-index: 2;
+    }
+
+    .header__mobile-navber-list .header__logo-list{
+        display: flex;
+        margin: 0;
+    }
+
+    .header__mobile-navber-list .header__navbar-item:nth-child(4){
+        margin: 0;
+    }
+
+    #open-mobile-navbar:checked + .header__mobile-navber-list{
+        transform: translateX(0);
+    }
+
+    .home__body{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 3rem;
+    }
+
+    .home__btns,
+    .home__desc-list,
+    .home__img-block{
+        display: none;
+    }
+
+    .home__title-block,
+    .books__item{
+        width: 90%;
+    }
+    
+    .books__book-type-block{
+        width: 50%;
+    }
+    
+    .books__img-block{
+        width: 48%;
+    }
+
+    .books__book-type-block{
+        margin: 10px 0;
+    }
+
+    .books__book-btn{
+        padding: 12px 0 !important;
+    }
+
+    .about-author__img-block{
+        position: relative;
+        width: 70%;
+    }
+
+    .about-author__img-block > img{
+        width: 100%;
+    }
+    
+    .about-author__card{
+        width: 82%;
+    }
+
+    .about-author__info{
+        text-align: center;
+    }
+
+    .about-author__info-list{
+        width: 80%;
+    }
+
+    .about-author__info-item{
+        text-align: center;
+        border: none;
+    }
+    
+    .trusted__list,
+    .description__list{
+        gap: 32px;
+        justify-content: center;
+    }
+
+    .trusted__item{
+        width: 45%;
+    }
+
+    .get-book__title-block{
+        align-items: center;
+    }
+
+    .get-book__img,
+    .description__img{
+        display: none;
+    }
+
+    .get-book__title-block,
+    .description__list,
+    .chapters__item,
+    .chapters__question-link{
+        width: 100%;
+    }
+}

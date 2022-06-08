@@ -1,0 +1,20 @@
+/* Config css */
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Inter&display=swap');
+@import "./configCSS/root.css";
+
+/* module style */
+@import "./modules/main_style.css";
+@import "./modules/header.css";
+@import "./modules/section_home.css";
+@import "./modules/section_books.css";
+@import "./modules/section_author.css";
+@import "./modules/block_trusted.css";
+@import "./modules/block_get_book.css";
+@import "./modules/section_description.css";
+@import "./modules/section_chapters.css";
+
+/* adaptive styles */
+@import "./modules/adaptive/adaptive_1260.css";
+@import "./modules/adaptive/adaptive_1024.css";
+@import "./modules/adaptive/adaptive_768.css";
+@import "./modules/adaptive/adaptive_425.css";

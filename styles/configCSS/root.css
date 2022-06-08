@@ -1,0 +1,15 @@
+:root{
+    --main-bg-color: #1B3764;
+    --sec-bg-color: #F4F8FF;
+    --main-text-color: #1B3764;
+    --sec-text-color: #B4C7E7;
+    --sub-text-color: #969AA0;
+    --header-height: 110px;
+    --header-link-color: #F6F8FC;
+    --white-color: #fff;
+    --fs-1-lvl: 64px;
+    --fs-1_5-lvl: 32px;
+    --fs-2-lvl: 21px;
+    --fs-3-lvl: 17px;
+    --active-color: #FFCA42;
+}
