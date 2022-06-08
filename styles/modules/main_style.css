@@ -6,6 +6,10 @@
     z-index: 1;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 a{
     text-decoration: none;
 }
@@ -25,6 +29,14 @@ ul, ol{
     background: transparent;
     outline: none;
     cursor: pointer;
+}
+
+.main-btn:focus{
+    border: 2px solid aqua;
+}
+
+.main-btn:active{
+    border: 2px solid aqua;
 }
 
 .flex-center{

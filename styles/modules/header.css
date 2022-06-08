@@ -54,6 +54,10 @@
     white-space: nowrap;
 }
 
+.header__navbar-item > a:hover{
+    color: var(--active-color);
+}
+
 .header__navbar-item:nth-child(4){margin-left: 14px;}
 
 .header__navbar-item > a{letter-spacing: .2px;}
