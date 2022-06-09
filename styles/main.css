@@ -12,6 +12,7 @@
 @import "./modules/block_get_book.css";
 @import "./modules/section_description.css";
 @import "./modules/section_chapters.css";
+@import "./modules/section_comments.css";
 
 /* adaptive styles */
 @import "./modules/adaptive/adaptive_1260.css";

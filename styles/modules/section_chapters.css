@@ -1,6 +1,6 @@
 .chapters{
     background: var(--sec-bg-color);
-    padding: 116px 0;
+    padding: 116px 0 130px;
 }
 
 .chapters__title-block{

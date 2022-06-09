@@ -67,4 +67,14 @@
     .description__img{
         width: 70%;
     }
+
+    .comments__list{
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .comments__item{
+        width: 80%;
+        transform: none !important;
+    }
 }

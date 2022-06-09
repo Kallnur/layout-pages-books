@@ -127,7 +127,16 @@
     .get-book__title-block,
     .description__list,
     .chapters__item,
-    .chapters__question-link{
+    .chapters__question-link,
+    .comments__item{
         width: 100%;
+    }
+
+    .comments__body{
+        flex-direction: column;
+    }
+
+    .comments__body > div, .comments__body > ul{
+        width: 90%;
     }
 }
