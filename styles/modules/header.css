@@ -111,3 +111,7 @@
 .header__burger::after{
     transform: translateY(300%);
 }
+
+.header__logo-item > a:hover{
+    box-shadow: 0 0 7px var(--active-color);
+}

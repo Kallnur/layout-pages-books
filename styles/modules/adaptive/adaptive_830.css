@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 830px) {
 
     :root{
         --fs-1_5-lvl: 25px;
@@ -138,5 +138,27 @@
 
     .comments__body > div, .comments__body > ul{
         width: 90%;
+    }
+    .subscribe__form-body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__body{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__lists-block{
+        justify-content: center;
+    }
+
+    .footer__logo-block{
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        align-items: center;
+        flex-direction: column;
     }
 }

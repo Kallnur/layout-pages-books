@@ -13,9 +13,12 @@
 @import "./modules/section_description.css";
 @import "./modules/section_chapters.css";
 @import "./modules/section_comments.css";
+@import "./modules/section_articles.css";
+@import "./modules/block_subscribe.css";
+@import "./modules/footer.css";
 
 /* adaptive styles */
 @import "./modules/adaptive/adaptive_1260.css";
 @import "./modules/adaptive/adaptive_1024.css";
-@import "./modules/adaptive/adaptive_768.css";
+@import "./modules/adaptive/adaptive_830.css";
 @import "./modules/adaptive/adaptive_425.css";

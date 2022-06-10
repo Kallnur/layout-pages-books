@@ -31,12 +31,13 @@ ul, ol{
     cursor: pointer;
 }
 
-.main-btn:focus{
+.main-btn:focus,
+.main-btn:active{
     border: 2px solid aqua;
 }
 
-.main-btn:active{
-    border: 2px solid aqua;
+.main-btn:hover{
+    border: 2px solid rgb(113, 167, 167);
 }
 
 .flex-center{
@@ -98,4 +99,9 @@ h1, h2, button, strong{
 
 input[type=checkbox]{
     display: none;
+}
+
+a:hover,
+a.focus{
+    color: var(--active-color);
 }

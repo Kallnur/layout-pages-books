@@ -91,4 +91,23 @@
     .chapters__btn > button{
         padding: 22px 70px;
     }
+    .subscribe__body{
+        padding: 96px 5px 112px;
+    }
+    .subscribe__title-block{
+        width: 100%;
+    }
+    .footer__lists-block {
+        justify-content: start;
+    }
+    .footer__lists-block{
+        gap: 10px;
+    }
+    
+    .footer__list-block:last-child > ul > li a {
+        width: initial;
+    }
+    .footer__list-block:last-child > ul > li{
+        gap: 5px;
+    }
 }

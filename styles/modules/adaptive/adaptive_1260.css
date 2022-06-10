@@ -62,4 +62,11 @@
     .description__img > img{
         width: 100%;
     }
+
+    .articles__item{
+        width: 30%;
+    }
+    .footer__lists-block{
+        justify-content: center;
+    }
 }

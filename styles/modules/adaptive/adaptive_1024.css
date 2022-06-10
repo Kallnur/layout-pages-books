@@ -65,7 +65,7 @@
     }
 
     .description__img{
-        width: 70%;
+        width: 50%;
     }
 
     .comments__list{
@@ -76,5 +76,24 @@
     .comments__item{
         width: 80%;
         transform: none !important;
+    }
+
+    .articles__list{
+        flex-direction: column;
+    }
+
+    .articles__item{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .articles__img{
+        display: none;
+    }
+    .subscribe__body{
+        padding: 96px 50px 112px;
+    }
+    .subscribe__title-block{
+        width: 80%;
     }
 }
